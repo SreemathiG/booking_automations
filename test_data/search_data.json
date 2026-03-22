@@ -1,0 +1,27 @@
+[
+  {
+    "location": "Chennai",
+    "expected_keyword": "Chennai",
+    "description": "Search for hotels in Chennai and validate results"
+  },
+  {
+    "location": "Mumbai",
+    "expected_keyword": "Mumbai",
+    "description": "Search for hotels in Mumbai and validate results"
+  },
+  {
+    "location": "Delhi",
+    "expected_keyword": "Delhi",
+    "description": "Search for hotels in Delhi and validate results"
+  },
+  {
+    "location": "Bangalore",
+    "expected_keyword": "Bangalore",
+    "description": "Search for hotels in Bangalore and validate results"
+  },
+  {
+    "location": "Hyderabad",
+    "expected_keyword": "Hyderabad",
+    "description": "Search for hotels in Hyderabad and validate results"
+  }
+]

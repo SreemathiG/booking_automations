@@ -1,0 +1,1114 @@
+2026-03-22 16:27:08 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 16:27:15 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:27:22 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:27:22 [INFO    ] test_search - ============================================================
+2026-03-22 16:27:22 [INFO    ] test_search - TEST START: Search for hotels in Chennai and validate results
+2026-03-22 16:27:22 [INFO    ] test_search - Location  : Chennai
+2026-03-22 16:27:22 [INFO    ] test_search - Keyword   : Chennai
+2026-03-22 16:27:22 [INFO    ] test_search - ============================================================
+2026-03-22 16:27:22 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:27:22 [INFO    ] HomePage - Searching for: 'Chennai'
+2026-03-22 16:28:30 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Chennai__20260322_162830.png
+2026-03-22 16:28:30 [ERROR   ] conftest - FAILED: test_booking_flow[Chennai] — screenshot captured
+2026-03-22 16:28:30 [INFO    ] conftest - Closing browser
+2026-03-22 16:28:38 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:28:46 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:28:46 [INFO    ] test_search - ============================================================
+2026-03-22 16:28:46 [INFO    ] test_search - TEST START: Search for hotels in Mumbai and validate results
+2026-03-22 16:28:46 [INFO    ] test_search - Location  : Mumbai
+2026-03-22 16:28:46 [INFO    ] test_search - Keyword   : Mumbai
+2026-03-22 16:28:46 [INFO    ] test_search - ============================================================
+2026-03-22 16:28:46 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:28:46 [INFO    ] HomePage - Searching for: 'Mumbai'
+2026-03-22 16:30:37 [ERROR   ] Screenshot - Failed to capture screenshot for 'test_booking_flow[Mumbai]': Message: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=146.0.7680.81)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4c7c13+10dd3]
+	chromedriver!GetHandleVerifier [0x4c7d44+10f04]
+	chromedriver!(No symbol) [0x2a1f50]
+	chromedriver!(No symbol) [0x2922e3]
+	chromedriver!(No symbol) [0x292015]
+	chromedriver!(No symbol) [0x290128]
+	chromedriver!(No symbol) [0x290976]
+	chromedriver!(No symbol) [0x2aff61]
+	chromedriver!(No symbol) [0x336f3e]
+	chromedriver!(No symbol) [0x30d90c]
+	chromedriver!(No symbol) [0x32a7de]
+	chromedriver!(No symbol) [0x30d6a6]
+	chromedriver!(No symbol) [0x2e0029]
+	chromedriver!(No symbol) [0x2e0de4]
+	chromedriver!GetHandleVerifier [0x724509+26d6c9]
+	chromedriver!GetHandleVerifier [0x71fb43+268d03]
+	chromedriver!GetHandleVerifier [0x73d85b+286a1b]
+	chromedriver!GetHandleVerifier [0x4e1668+2a828]
+	chromedriver!GetHandleVerifier [0x4e97fd+329bd]
+	chromedriver!GetHandleVerifier [0x4d0588+19748]
+	chromedriver!GetHandleVerifier [0x4d0752+19912]
+	chromedriver!GetHandleVerifier [0x4b99da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 16:30:37 [ERROR   ] conftest - FAILED: test_booking_flow[Mumbai] — screenshot captured
+2026-03-22 16:30:37 [INFO    ] conftest - Closing browser
+2026-03-22 16:30:44 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:30:48 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:30:48 [INFO    ] test_search - ============================================================
+2026-03-22 16:30:48 [INFO    ] test_search - TEST START: Search for hotels in Delhi and validate results
+2026-03-22 16:30:48 [INFO    ] test_search - Location  : Delhi
+2026-03-22 16:30:48 [INFO    ] test_search - Keyword   : Delhi
+2026-03-22 16:30:48 [INFO    ] test_search - ============================================================
+2026-03-22 16:30:48 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:30:48 [INFO    ] HomePage - Searching for: 'Delhi'
+2026-03-22 16:31:25 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Delhi__20260322_163125.png
+2026-03-22 16:31:25 [ERROR   ] conftest - FAILED: test_booking_flow[Delhi] — screenshot captured
+2026-03-22 16:31:25 [INFO    ] conftest - Closing browser
+2026-03-22 16:31:32 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:31:38 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:31:38 [INFO    ] test_search - ============================================================
+2026-03-22 16:31:38 [INFO    ] test_search - TEST START: Search for hotels in Bangalore and validate results
+2026-03-22 16:31:38 [INFO    ] test_search - Location  : Bangalore
+2026-03-22 16:31:38 [INFO    ] test_search - Keyword   : Bangalore
+2026-03-22 16:31:38 [INFO    ] test_search - ============================================================
+2026-03-22 16:31:38 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:31:38 [INFO    ] HomePage - Searching for: 'Bangalore'
+2026-03-22 16:32:16 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Bangalore__20260322_163215.png
+2026-03-22 16:32:16 [ERROR   ] conftest - FAILED: test_booking_flow[Bangalore] — screenshot captured
+2026-03-22 16:32:16 [INFO    ] conftest - Closing browser
+2026-03-22 16:32:23 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:32:27 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:32:27 [INFO    ] test_search - ============================================================
+2026-03-22 16:32:27 [INFO    ] test_search - TEST START: Search for hotels in Hyderabad and validate results
+2026-03-22 16:32:27 [INFO    ] test_search - Location  : Hyderabad
+2026-03-22 16:32:27 [INFO    ] test_search - Keyword   : Hyderabad
+2026-03-22 16:32:27 [INFO    ] test_search - ============================================================
+2026-03-22 16:32:27 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:32:27 [INFO    ] HomePage - Searching for: 'Hyderabad'
+2026-03-22 16:33:06 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Hyderabad__20260322_163306.png
+2026-03-22 16:33:06 [ERROR   ] conftest - FAILED: test_booking_flow[Hyderabad] — screenshot captured
+2026-03-22 16:33:06 [INFO    ] conftest - Closing browser
+2026-03-22 16:35:59 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 16:36:04 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:36:09 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:36:09 [INFO    ] test_search - ============================================================
+2026-03-22 16:36:09 [INFO    ] test_search - TEST START: Search for hotels in Chennai and validate results
+2026-03-22 16:36:09 [INFO    ] test_search - Location  : Chennai
+2026-03-22 16:36:09 [INFO    ] test_search - Keyword   : Chennai
+2026-03-22 16:36:09 [INFO    ] test_search - ============================================================
+2026-03-22 16:36:09 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:36:09 [INFO    ] HomePage - Searching for: 'Chennai'
+2026-03-22 16:36:47 [INFO    ] HomePage - Location typed into search box
+2026-03-22 16:36:50 [INFO    ] HomePage - Autocomplete handling skipped: Message: element click intercepted: Element <li class="ced3f020a5" id="autocomplete-result-0" role="option">...</li> is not clickable at point (425, 415). Other element would receive the click: <div class="bbe73dce14">...</div>
+  (Session info: chrome=146.0.7680.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4c7c13+10dd3]
+	chromedriver!GetHandleVerifier [0x4c7d44+10f04]
+	chromedriver!(No symbol) [0x2a1f50]
+	chromedriver!(No symbol) [0x2f10a8]
+	chromedriver!(No symbol) [0x2ef2b9]
+	chromedriver!(No symbol) [0x2ecc72]
+	chromedriver!(No symbol) [0x2ebe74]
+	chromedriver!(No symbol) [0x2e1aa8]
+	chromedriver!(No symbol) [0x30d90c]
+	chromedriver!(No symbol) [0x2e14e4]
+	chromedriver!(No symbol) [0x30dad4]
+	chromedriver!(No symbol) [0x32a7de]
+	chromedriver!(No symbol) [0x30d6a6]
+	chromedriver!(No symbol) [0x2e0029]
+	chromedriver!(No symbol) [0x2e0de4]
+	chromedriver!GetHandleVerifier [0x724509+26d6c9]
+	chromedriver!GetHandleVerifier [0x71fb43+268d03]
+	chromedriver!GetHandleVerifier [0x73d85b+286a1b]
+	chromedriver!GetHandleVerifier [0x4e1668+2a828]
+	chromedriver!GetHandleVerifier [0x4e97fd+329bd]
+	chromedriver!GetHandleVerifier [0x4d0588+19748]
+	chromedriver!GetHandleVerifier [0x4d0752+19912]
+	chromedriver!GetHandleVerifier [0x4b99da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 16:37:15 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 16:37:15 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 16:37:15 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 16:37:15 [INFO    ] test_search - PASS: 25 results found for 'Chennai'
+2026-03-22 16:37:15 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 16:37:15 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 16:37:16 [INFO    ] ResultsPage - First result clicked
+2026-03-22 16:38:03 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Chennai__20260322_163802.png
+2026-03-22 16:38:03 [ERROR   ] conftest - FAILED: test_booking_flow[Chennai] — screenshot captured
+2026-03-22 16:38:03 [INFO    ] conftest - Closing browser
+2026-03-22 16:38:11 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:38:16 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:38:16 [INFO    ] test_search - ============================================================
+2026-03-22 16:38:16 [INFO    ] test_search - TEST START: Search for hotels in Mumbai and validate results
+2026-03-22 16:38:16 [INFO    ] test_search - Location  : Mumbai
+2026-03-22 16:38:16 [INFO    ] test_search - Keyword   : Mumbai
+2026-03-22 16:38:16 [INFO    ] test_search - ============================================================
+2026-03-22 16:38:16 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:38:16 [INFO    ] HomePage - Searching for: 'Mumbai'
+2026-03-22 16:38:54 [INFO    ] HomePage - Location typed into search box
+2026-03-22 16:38:55 [INFO    ] HomePage - Autocomplete handling skipped: Message: element click intercepted: Element <li class="ced3f020a5" id="autocomplete-result-0" role="option">...</li> is not clickable at point (425, 414). Other element would receive the click: <div class="bbe73dce14">...</div>
+  (Session info: chrome=146.0.7680.81); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4c7c13+10dd3]
+	chromedriver!GetHandleVerifier [0x4c7d44+10f04]
+	chromedriver!(No symbol) [0x2a1f50]
+	chromedriver!(No symbol) [0x2f10a8]
+	chromedriver!(No symbol) [0x2ef2b9]
+	chromedriver!(No symbol) [0x2ecc72]
+	chromedriver!(No symbol) [0x2ebe74]
+	chromedriver!(No symbol) [0x2e1aa8]
+	chromedriver!(No symbol) [0x30d90c]
+	chromedriver!(No symbol) [0x2e14e4]
+	chromedriver!(No symbol) [0x30dad4]
+	chromedriver!(No symbol) [0x32a7de]
+	chromedriver!(No symbol) [0x30d6a6]
+	chromedriver!(No symbol) [0x2e0029]
+	chromedriver!(No symbol) [0x2e0de4]
+	chromedriver!GetHandleVerifier [0x724509+26d6c9]
+	chromedriver!GetHandleVerifier [0x71fb43+268d03]
+	chromedriver!GetHandleVerifier [0x73d85b+286a1b]
+	chromedriver!GetHandleVerifier [0x4e1668+2a828]
+	chromedriver!GetHandleVerifier [0x4e97fd+329bd]
+	chromedriver!GetHandleVerifier [0x4d0588+19748]
+	chromedriver!GetHandleVerifier [0x4d0752+19912]
+	chromedriver!GetHandleVerifier [0x4b99da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 16:39:25 [ERROR   ] HomePage - Search button click failed: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=146.0.7680.81)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4c7c13+10dd3]
+	chromedriver!GetHandleVerifier [0x4c7d44+10f04]
+	chromedriver!(No symbol) [0x2a1f50]
+	chromedriver!(No symbol) [0x2922e3]
+	chromedriver!(No symbol) [0x292015]
+	chromedriver!(No symbol) [0x290128]
+	chromedriver!(No symbol) [0x290976]
+	chromedriver!(No symbol) [0x29d7fb]
+	chromedriver!(No symbol) [0x2af58e]
+	chromedriver!(No symbol) [0x2b4ff6]
+	chromedriver!(No symbol) [0x290ffc]
+	chromedriver!(No symbol) [0x2af33f]
+	chromedriver!(No symbol) [0x32aafa]
+	chromedriver!(No symbol) [0x30d6a6]
+	chromedriver!(No symbol) [0x2e0029]
+	chromedriver!(No symbol) [0x2e0de4]
+	chromedriver!GetHandleVerifier [0x724509+26d6c9]
+	chromedriver!GetHandleVerifier [0x71fb43+268d03]
+	chromedriver!GetHandleVerifier [0x73d85b+286a1b]
+	chromedriver!GetHandleVerifier [0x4e1668+2a828]
+	chromedriver!GetHandleVerifier [0x4e97fd+329bd]
+	chromedriver!GetHandleVerifier [0x4d0588+19748]
+	chromedriver!GetHandleVerifier [0x4d0752+19912]
+	chromedriver!GetHandleVerifier [0x4b99da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 16:39:26 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Mumbai__20260322_163925.png
+2026-03-22 16:39:26 [ERROR   ] conftest - FAILED: test_booking_flow[Mumbai] — screenshot captured
+2026-03-22 16:39:26 [INFO    ] conftest - Closing browser
+2026-03-22 16:40:46 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:40:57 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:40:57 [INFO    ] test_search - ============================================================
+2026-03-22 16:40:57 [INFO    ] test_search - TEST START: Search for hotels in Delhi and validate results
+2026-03-22 16:40:57 [INFO    ] test_search - Location  : Delhi
+2026-03-22 16:40:57 [INFO    ] test_search - Keyword   : Delhi
+2026-03-22 16:40:57 [INFO    ] test_search - ============================================================
+2026-03-22 16:40:57 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:40:57 [INFO    ] HomePage - Searching for: 'Delhi'
+2026-03-22 16:41:40 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Delhi__20260322_164140.png
+2026-03-22 16:41:40 [ERROR   ] conftest - FAILED: test_booking_flow[Delhi] — screenshot captured
+2026-03-22 16:41:40 [INFO    ] conftest - Closing browser
+2026-03-22 16:41:48 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:41:58 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:41:58 [INFO    ] test_search - ============================================================
+2026-03-22 16:41:58 [INFO    ] test_search - TEST START: Search for hotels in Bangalore and validate results
+2026-03-22 16:41:58 [INFO    ] test_search - Location  : Bangalore
+2026-03-22 16:41:58 [INFO    ] test_search - Keyword   : Bangalore
+2026-03-22 16:41:58 [INFO    ] test_search - ============================================================
+2026-03-22 16:41:58 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:41:58 [INFO    ] HomePage - Searching for: 'Bangalore'
+2026-03-22 16:42:39 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Bangalore__20260322_164239.png
+2026-03-22 16:42:39 [ERROR   ] conftest - FAILED: test_booking_flow[Bangalore] — screenshot captured
+2026-03-22 16:42:39 [INFO    ] conftest - Closing browser
+2026-03-22 16:42:47 [INFO    ] DriverFactory - Chrome WebDriver initialized successfully
+2026-03-22 16:42:58 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:42:58 [INFO    ] test_search - ============================================================
+2026-03-22 16:42:58 [INFO    ] test_search - TEST START: Search for hotels in Hyderabad and validate results
+2026-03-22 16:42:58 [INFO    ] test_search - Location  : Hyderabad
+2026-03-22 16:42:58 [INFO    ] test_search - Keyword   : Hyderabad
+2026-03-22 16:42:58 [INFO    ] test_search - ============================================================
+2026-03-22 16:42:58 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:42:58 [INFO    ] HomePage - Searching for: 'Hyderabad'
+2026-03-22 16:44:48 [ERROR   ] Screenshot - Failed to capture screenshot for 'test_booking_flow[Hyderabad]': Message: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=146.0.7680.81)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4c7c13+10dd3]
+	chromedriver!GetHandleVerifier [0x4c7d44+10f04]
+	chromedriver!(No symbol) [0x2a1f50]
+	chromedriver!(No symbol) [0x2922e3]
+	chromedriver!(No symbol) [0x292015]
+	chromedriver!(No symbol) [0x290128]
+	chromedriver!(No symbol) [0x290976]
+	chromedriver!(No symbol) [0x2aff61]
+	chromedriver!(No symbol) [0x336f3e]
+	chromedriver!(No symbol) [0x30d90c]
+	chromedriver!(No symbol) [0x32a7de]
+	chromedriver!(No symbol) [0x30d6a6]
+	chromedriver!(No symbol) [0x2e0029]
+	chromedriver!(No symbol) [0x2e0de4]
+	chromedriver!GetHandleVerifier [0x724509+26d6c9]
+	chromedriver!GetHandleVerifier [0x71fb43+268d03]
+	chromedriver!GetHandleVerifier [0x73d85b+286a1b]
+	chromedriver!GetHandleVerifier [0x4e1668+2a828]
+	chromedriver!GetHandleVerifier [0x4e97fd+329bd]
+	chromedriver!GetHandleVerifier [0x4d0588+19748]
+	chromedriver!GetHandleVerifier [0x4d0752+19912]
+	chromedriver!GetHandleVerifier [0x4b99da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 16:44:48 [ERROR   ] conftest - FAILED: test_booking_flow[Hyderabad] — screenshot captured
+2026-03-22 16:44:48 [INFO    ] conftest - Closing browser
+2026-03-22 16:49:35 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 16:49:41 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:49:41 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:49:41 [INFO    ] test_search - ============================================================
+2026-03-22 16:49:41 [INFO    ] test_search - TEST START: Search for hotels in Chennai and validate results
+2026-03-22 16:49:41 [INFO    ] test_search - Location  : Chennai
+2026-03-22 16:49:41 [INFO    ] test_search - Keyword   : Chennai
+2026-03-22 16:49:41 [INFO    ] test_search - ============================================================
+2026-03-22 16:49:41 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:49:41 [INFO    ] HomePage - Searching for: 'Chennai'
+2026-03-22 16:50:09 [INFO    ] HomePage - Location typed into search box
+2026-03-22 16:50:11 [INFO    ] HomePage - No autocomplete — pressed Enter
+2026-03-22 16:50:17 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 16:50:17 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 16:50:21 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 16:50:21 [INFO    ] test_search - PASS: 25 results found for 'Chennai'
+2026-03-22 16:50:21 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 16:50:21 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 16:50:21 [INFO    ] ResultsPage - First result clicked
+2026-03-22 16:50:23 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 16:50:23 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 16:50:23 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 16:50:26 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 16:50:26 [INFO    ] test_search - TEST PASSED: Search for hotels in Chennai and validate results
+2026-03-22 16:50:26 [INFO    ] test_search - ============================================================
+2026-03-22 16:50:26 [INFO    ] conftest - Closing browser
+2026-03-22 16:51:06 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 16:51:11 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:51:11 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:51:11 [INFO    ] test_search - ============================================================
+2026-03-22 16:51:11 [INFO    ] test_search - TEST START: Search for hotels in Chennai and validate results
+2026-03-22 16:51:11 [INFO    ] test_search - Location  : Chennai
+2026-03-22 16:51:11 [INFO    ] test_search - Keyword   : Chennai
+2026-03-22 16:51:11 [INFO    ] test_search - ============================================================
+2026-03-22 16:51:11 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:51:11 [INFO    ] HomePage - Searching for: 'Chennai'
+2026-03-22 16:51:22 [INFO    ] HomePage - Location typed into search box
+2026-03-22 16:51:24 [INFO    ] HomePage - No autocomplete — pressed Enter
+2026-03-22 16:51:33 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 16:51:33 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 16:51:36 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 16:51:36 [INFO    ] test_search - PASS: 25 results found for 'Chennai'
+2026-03-22 16:51:36 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 16:51:36 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 16:51:36 [INFO    ] ResultsPage - First result clicked
+2026-03-22 16:51:38 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 16:51:38 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 16:51:38 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 16:51:42 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 16:51:42 [INFO    ] test_search - TEST PASSED: Search for hotels in Chennai and validate results
+2026-03-22 16:51:42 [INFO    ] test_search - ============================================================
+2026-03-22 16:51:42 [INFO    ] conftest - Closing browser
+2026-03-22 16:51:50 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:51:50 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:51:50 [INFO    ] test_search - ============================================================
+2026-03-22 16:51:50 [INFO    ] test_search - TEST START: Search for hotels in Mumbai and validate results
+2026-03-22 16:51:50 [INFO    ] test_search - Location  : Mumbai
+2026-03-22 16:51:50 [INFO    ] test_search - Keyword   : Mumbai
+2026-03-22 16:51:50 [INFO    ] test_search - ============================================================
+2026-03-22 16:51:50 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:51:50 [INFO    ] HomePage - Searching for: 'Mumbai'
+2026-03-22 16:52:00 [INFO    ] HomePage - Location typed into search box
+2026-03-22 16:52:02 [INFO    ] HomePage - No autocomplete — pressed Enter
+2026-03-22 16:52:07 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 16:52:07 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 16:52:10 [INFO    ] ResultsPage - Property cards found: 1
+2026-03-22 16:52:10 [INFO    ] test_search - PASS: 1 results found for 'Mumbai'
+2026-03-22 16:52:10 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 16:52:10 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 16:52:10 [INFO    ] ResultsPage - First result clicked
+2026-03-22 16:52:12 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 16:52:12 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 16:52:12 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 16:52:16 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 16:52:16 [INFO    ] test_search - TEST PASSED: Search for hotels in Mumbai and validate results
+2026-03-22 16:52:16 [INFO    ] test_search - ============================================================
+2026-03-22 16:52:16 [INFO    ] conftest - Closing browser
+2026-03-22 16:52:23 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:52:23 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:52:23 [INFO    ] test_search - ============================================================
+2026-03-22 16:52:23 [INFO    ] test_search - TEST START: Search for hotels in Delhi and validate results
+2026-03-22 16:52:23 [INFO    ] test_search - Location  : Delhi
+2026-03-22 16:52:23 [INFO    ] test_search - Keyword   : Delhi
+2026-03-22 16:52:23 [INFO    ] test_search - ============================================================
+2026-03-22 16:52:23 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:52:23 [INFO    ] HomePage - Searching for: 'Delhi'
+2026-03-22 16:52:33 [INFO    ] HomePage - Location typed into search box
+2026-03-22 16:52:35 [INFO    ] HomePage - No autocomplete — pressed Enter
+2026-03-22 16:52:40 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 16:52:40 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 16:52:43 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 16:52:43 [INFO    ] test_search - PASS: 25 results found for 'Delhi'
+2026-03-22 16:52:43 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 16:52:43 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 16:52:43 [INFO    ] ResultsPage - First result clicked
+2026-03-22 16:52:45 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 16:52:45 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 16:52:45 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 16:52:49 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 16:52:49 [INFO    ] test_search - TEST PASSED: Search for hotels in Delhi and validate results
+2026-03-22 16:52:49 [INFO    ] test_search - ============================================================
+2026-03-22 16:52:49 [INFO    ] conftest - Closing browser
+2026-03-22 16:52:57 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:52:57 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:52:57 [INFO    ] test_search - ============================================================
+2026-03-22 16:52:57 [INFO    ] test_search - TEST START: Search for hotels in Bangalore and validate results
+2026-03-22 16:52:57 [INFO    ] test_search - Location  : Bangalore
+2026-03-22 16:52:57 [INFO    ] test_search - Keyword   : Bangalore
+2026-03-22 16:52:57 [INFO    ] test_search - ============================================================
+2026-03-22 16:52:57 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:52:57 [INFO    ] HomePage - Searching for: 'Bangalore'
+2026-03-22 16:53:07 [INFO    ] HomePage - Location typed into search box
+2026-03-22 16:53:09 [INFO    ] HomePage - No autocomplete — pressed Enter
+2026-03-22 16:53:17 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 16:53:17 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 16:53:21 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 16:53:21 [INFO    ] test_search - PASS: 25 results found for 'Bangalore'
+2026-03-22 16:53:21 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 16:53:21 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 16:53:21 [INFO    ] ResultsPage - First result clicked
+2026-03-22 16:53:23 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 16:53:23 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 16:53:23 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 16:53:28 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 16:53:28 [INFO    ] test_search - TEST PASSED: Search for hotels in Bangalore and validate results
+2026-03-22 16:53:28 [INFO    ] test_search - ============================================================
+2026-03-22 16:53:28 [INFO    ] conftest - Closing browser
+2026-03-22 16:53:35 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:53:35 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:53:35 [INFO    ] test_search - ============================================================
+2026-03-22 16:53:35 [INFO    ] test_search - TEST START: Search for hotels in Hyderabad and validate results
+2026-03-22 16:53:35 [INFO    ] test_search - Location  : Hyderabad
+2026-03-22 16:53:35 [INFO    ] test_search - Keyword   : Hyderabad
+2026-03-22 16:53:35 [INFO    ] test_search - ============================================================
+2026-03-22 16:53:35 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:53:35 [INFO    ] HomePage - Searching for: 'Hyderabad'
+2026-03-22 16:53:46 [INFO    ] HomePage - Location typed into search box
+2026-03-22 16:53:47 [INFO    ] HomePage - No autocomplete — pressed Enter
+2026-03-22 16:53:53 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 16:53:53 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 16:53:56 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 16:53:56 [INFO    ] test_search - PASS: 25 results found for 'Hyderabad'
+2026-03-22 16:53:56 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 16:53:56 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 16:53:56 [INFO    ] ResultsPage - First result clicked
+2026-03-22 16:53:58 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 16:53:58 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 16:53:58 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 16:54:02 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 16:54:02 [INFO    ] test_search - TEST PASSED: Search for hotels in Hyderabad and validate results
+2026-03-22 16:54:02 [INFO    ] test_search - ============================================================
+2026-03-22 16:54:02 [INFO    ] conftest - Closing browser
+2026-03-22 16:54:55 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 16:54:55 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 16:54:55 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 16:54:55 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 16:57:02 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:57:02 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:57:02 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:02 [INFO    ] test_search - TEST START: Search for hotels in Bangalore and validate results
+2026-03-22 16:57:02 [INFO    ] test_search - Location  : Bangalore
+2026-03-22 16:57:02 [INFO    ] test_search - Keyword   : Bangalore
+2026-03-22 16:57:02 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:02 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:57:02 [INFO    ] HomePage - Searching for: 'Bangalore'
+2026-03-22 16:57:19 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:57:19 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:57:19 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:19 [INFO    ] test_search - TEST START: Search for hotels in Mumbai and validate results
+2026-03-22 16:57:19 [INFO    ] test_search - Location  : Mumbai
+2026-03-22 16:57:19 [INFO    ] test_search - Keyword   : Mumbai
+2026-03-22 16:57:19 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:19 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:57:19 [INFO    ] HomePage - Searching for: 'Mumbai'
+2026-03-22 16:57:23 [INFO    ] HomePage - Location typed into search box
+2026-03-22 16:57:25 [INFO    ] HomePage - No autocomplete — pressed Enter
+2026-03-22 16:57:33 [ERROR   ] HomePage - Search button failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x827c13+10dd3]
+	chromedriver!GetHandleVerifier [0x827d44+10f04]
+	chromedriver!(No symbol) [0x601f50]
+	chromedriver!(No symbol) [0x64a9aa]
+	chromedriver!(No symbol) [0x64ac4b]
+	chromedriver!(No symbol) [0x68cee2]
+	chromedriver!(No symbol) [0x66d954]
+	chromedriver!(No symbol) [0x68a7de]
+	chromedriver!(No symbol) [0x66d6a6]
+	chromedriver!(No symbol) [0x640029]
+	chromedriver!(No symbol) [0x640de4]
+	chromedriver!GetHandleVerifier [0xa84509+26d6c9]
+	chromedriver!GetHandleVerifier [0xa7fb43+268d03]
+	chromedriver!GetHandleVerifier [0xa9d85b+286a1b]
+	chromedriver!GetHandleVerifier [0x841668+2a828]
+	chromedriver!GetHandleVerifier [0x8497fd+329bd]
+	chromedriver!GetHandleVerifier [0x830588+19748]
+	chromedriver!GetHandleVerifier [0x830752+19912]
+	chromedriver!GetHandleVerifier [0x8199da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 16:57:35 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Bangalore__20260322_165734.png
+2026-03-22 16:57:35 [ERROR   ] conftest - FAILED: test_booking_flow[Bangalore] — screenshot captured
+2026-03-22 16:57:35 [INFO    ] conftest - Closing browser
+2026-03-22 16:57:38 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:57:38 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:57:38 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:38 [INFO    ] test_search - TEST START: Search for hotels in Delhi and validate results
+2026-03-22 16:57:38 [INFO    ] test_search - Location  : Delhi
+2026-03-22 16:57:38 [INFO    ] test_search - Keyword   : Delhi
+2026-03-22 16:57:38 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:38 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:57:38 [INFO    ] HomePage - Searching for: 'Delhi'
+2026-03-22 16:57:38 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:57:38 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:57:38 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:38 [INFO    ] test_search - TEST START: Search for hotels in Hyderabad and validate results
+2026-03-22 16:57:38 [INFO    ] test_search - Location  : Hyderabad
+2026-03-22 16:57:38 [INFO    ] test_search - Keyword   : Hyderabad
+2026-03-22 16:57:38 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:38 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:57:38 [INFO    ] HomePage - Searching for: 'Hyderabad'
+2026-03-22 16:57:45 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 16:57:45 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 16:57:45 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:45 [INFO    ] test_search - TEST START: Search for hotels in Chennai and validate results
+2026-03-22 16:57:45 [INFO    ] test_search - Location  : Chennai
+2026-03-22 16:57:45 [INFO    ] test_search - Keyword   : Chennai
+2026-03-22 16:57:45 [INFO    ] test_search - ============================================================
+2026-03-22 16:57:45 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 16:57:45 [INFO    ] HomePage - Searching for: 'Chennai'
+2026-03-22 16:57:52 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Mumbai__20260322_165746.png
+2026-03-22 16:57:52 [ERROR   ] conftest - FAILED: test_booking_flow[Mumbai] — screenshot captured
+2026-03-22 16:57:52 [INFO    ] conftest - Closing browser
+2026-03-22 16:58:07 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Delhi__20260322_165807.png
+2026-03-22 16:58:07 [ERROR   ] conftest - FAILED: test_booking_flow[Delhi] — screenshot captured
+2026-03-22 16:58:07 [INFO    ] conftest - Closing browser
+2026-03-22 16:58:12 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Chennai__20260322_165812.png
+2026-03-22 16:58:12 [ERROR   ] conftest - FAILED: test_booking_flow[Chennai] — screenshot captured
+2026-03-22 16:58:12 [INFO    ] conftest - Closing browser
+2026-03-22 16:58:17 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Hyderabad__20260322_165809.png
+2026-03-22 16:58:17 [ERROR   ] conftest - FAILED: test_booking_flow[Hyderabad] — screenshot captured
+2026-03-22 16:58:17 [INFO    ] conftest - Closing browser
+2026-03-22 17:03:43 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 17:03:43 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 17:03:48 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:03:48 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:03:54 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:03:54 [INFO    ] test_search - ============================================================
+2026-03-22 17:03:54 [INFO    ] test_search - TEST START: Search for hotels in Delhi and validate results
+2026-03-22 17:03:54 [INFO    ] test_search - Location  : Delhi
+2026-03-22 17:03:54 [INFO    ] test_search - Keyword   : Delhi
+2026-03-22 17:03:54 [INFO    ] test_search - ============================================================
+2026-03-22 17:03:54 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:03:54 [INFO    ] HomePage - Searching for: 'Delhi'
+2026-03-22 17:03:55 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:03:55 [INFO    ] test_search - ============================================================
+2026-03-22 17:03:55 [INFO    ] test_search - TEST START: Search for hotels in Chennai and validate results
+2026-03-22 17:03:55 [INFO    ] test_search - Location  : Chennai
+2026-03-22 17:03:55 [INFO    ] test_search - Keyword   : Chennai
+2026-03-22 17:03:55 [INFO    ] test_search - ============================================================
+2026-03-22 17:03:55 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:03:55 [INFO    ] HomePage - Searching for: 'Chennai'
+2026-03-22 17:04:32 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:04:33 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:04:33 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:04:34 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:05:04 [ERROR   ] HomePage - Search button failed: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=146.0.7680.81)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xca7c13+10dd3]
+	chromedriver!GetHandleVerifier [0xca7d44+10f04]
+	chromedriver!(No symbol) [0xa81f50]
+	chromedriver!(No symbol) [0xa722e3]
+	chromedriver!(No symbol) [0xa72015]
+	chromedriver!(No symbol) [0xa70128]
+	chromedriver!(No symbol) [0xa70976]
+	chromedriver!(No symbol) [0xa7d7fb]
+	chromedriver!(No symbol) [0xa8f58e]
+	chromedriver!(No symbol) [0xa94ff6]
+	chromedriver!(No symbol) [0xa70ffc]
+	chromedriver!(No symbol) [0xa8f33f]
+	chromedriver!(No symbol) [0xb0aafa]
+	chromedriver!(No symbol) [0xaed6a6]
+	chromedriver!(No symbol) [0xac0029]
+	chromedriver!(No symbol) [0xac0de4]
+	chromedriver!GetHandleVerifier [0xf04509+26d6c9]
+	chromedriver!GetHandleVerifier [0xeffb43+268d03]
+	chromedriver!GetHandleVerifier [0xf1d85b+286a1b]
+	chromedriver!GetHandleVerifier [0xcc1668+2a828]
+	chromedriver!GetHandleVerifier [0xcc97fd+329bd]
+	chromedriver!GetHandleVerifier [0xcb0588+19748]
+	chromedriver!GetHandleVerifier [0xcb0752+19912]
+	chromedriver!GetHandleVerifier [0xc999da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 17:05:05 [ERROR   ] HomePage - Search button failed: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=146.0.7680.81)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x5e7c13+10dd3]
+	chromedriver!GetHandleVerifier [0x5e7d44+10f04]
+	chromedriver!(No symbol) [0x3c1f50]
+	chromedriver!(No symbol) [0x3b22e3]
+	chromedriver!(No symbol) [0x3b2015]
+	chromedriver!(No symbol) [0x3b0128]
+	chromedriver!(No symbol) [0x3b0976]
+	chromedriver!(No symbol) [0x3bd7fb]
+	chromedriver!(No symbol) [0x3cf58e]
+	chromedriver!(No symbol) [0x3d4ff6]
+	chromedriver!(No symbol) [0x3b0ffc]
+	chromedriver!(No symbol) [0x3cf33f]
+	chromedriver!(No symbol) [0x44aafa]
+	chromedriver!(No symbol) [0x42d6a6]
+	chromedriver!(No symbol) [0x400029]
+	chromedriver!(No symbol) [0x400de4]
+	chromedriver!GetHandleVerifier [0x844509+26d6c9]
+	chromedriver!GetHandleVerifier [0x83fb43+268d03]
+	chromedriver!GetHandleVerifier [0x85d85b+286a1b]
+	chromedriver!GetHandleVerifier [0x601668+2a828]
+	chromedriver!GetHandleVerifier [0x6097fd+329bd]
+	chromedriver!GetHandleVerifier [0x5f0588+19748]
+	chromedriver!GetHandleVerifier [0x5f0752+19912]
+	chromedriver!GetHandleVerifier [0x5d99da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 17:05:34 [ERROR   ] Screenshot - Failed to capture screenshot for 'test_booking_flow[Delhi]': Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=146.0.7680.81)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xca7c13+10dd3]
+	chromedriver!GetHandleVerifier [0xca7d44+10f04]
+	chromedriver!(No symbol) [0xa81f50]
+	chromedriver!(No symbol) [0xa722e3]
+	chromedriver!(No symbol) [0xa72015]
+	chromedriver!(No symbol) [0xa70128]
+	chromedriver!(No symbol) [0xa70976]
+	chromedriver!(No symbol) [0xa7d7fb]
+	chromedriver!(No symbol) [0xa8f58e]
+	chromedriver!(No symbol) [0xa94ff6]
+	chromedriver!(No symbol) [0xa70ffc]
+	chromedriver!(No symbol) [0xa8f33f]
+	chromedriver!(No symbol) [0xb0a6ee]
+	chromedriver!(No symbol) [0xaed6a6]
+	chromedriver!(No symbol) [0xac0029]
+	chromedriver!(No symbol) [0xac0de4]
+	chromedriver!GetHandleVerifier [0xf04509+26d6c9]
+	chromedriver!GetHandleVerifier [0xeffb43+268d03]
+	chromedriver!GetHandleVerifier [0xf1d85b+286a1b]
+	chromedriver!GetHandleVerifier [0xcc1668+2a828]
+	chromedriver!GetHandleVerifier [0xcc97fd+329bd]
+	chromedriver!GetHandleVerifier [0xcb0588+19748]
+	chromedriver!GetHandleVerifier [0xcb0752+19912]
+	chromedriver!GetHandleVerifier [0xc999da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 17:05:34 [ERROR   ] conftest - FAILED: test_booking_flow[Delhi] — screenshot captured
+2026-03-22 17:05:34 [INFO    ] conftest - Closing browser
+2026-03-22 17:05:35 [ERROR   ] Screenshot - Failed to capture screenshot for 'test_booking_flow[Chennai]': Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=146.0.7680.81)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x5e7c13+10dd3]
+	chromedriver!GetHandleVerifier [0x5e7d44+10f04]
+	chromedriver!(No symbol) [0x3c1f50]
+	chromedriver!(No symbol) [0x3b22e3]
+	chromedriver!(No symbol) [0x3b2015]
+	chromedriver!(No symbol) [0x3b0128]
+	chromedriver!(No symbol) [0x3b0976]
+	chromedriver!(No symbol) [0x3bd7fb]
+	chromedriver!(No symbol) [0x3cf58e]
+	chromedriver!(No symbol) [0x3d4ff6]
+	chromedriver!(No symbol) [0x3b0ffc]
+	chromedriver!(No symbol) [0x3cf33f]
+	chromedriver!(No symbol) [0x44a6ee]
+	chromedriver!(No symbol) [0x42d6a6]
+	chromedriver!(No symbol) [0x400029]
+	chromedriver!(No symbol) [0x400de4]
+	chromedriver!GetHandleVerifier [0x844509+26d6c9]
+	chromedriver!GetHandleVerifier [0x83fb43+268d03]
+	chromedriver!GetHandleVerifier [0x85d85b+286a1b]
+	chromedriver!GetHandleVerifier [0x601668+2a828]
+	chromedriver!GetHandleVerifier [0x6097fd+329bd]
+	chromedriver!GetHandleVerifier [0x5f0588+19748]
+	chromedriver!GetHandleVerifier [0x5f0752+19912]
+	chromedriver!GetHandleVerifier [0x5d99da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x760b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x77b3d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77b3d7a1+231]
+
+2026-03-22 17:05:35 [ERROR   ] conftest - FAILED: test_booking_flow[Chennai] — screenshot captured
+2026-03-22 17:05:35 [INFO    ] conftest - Closing browser
+2026-03-22 17:05:48 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:05:48 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:06:01 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:06:01 [INFO    ] test_search - ============================================================
+2026-03-22 17:06:01 [INFO    ] test_search - TEST START: Search for hotels in Mumbai and validate results
+2026-03-22 17:06:01 [INFO    ] test_search - Location  : Mumbai
+2026-03-22 17:06:01 [INFO    ] test_search - Keyword   : Mumbai
+2026-03-22 17:06:01 [INFO    ] test_search - ============================================================
+2026-03-22 17:06:01 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:06:01 [INFO    ] HomePage - Searching for: 'Mumbai'
+2026-03-22 17:06:04 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:06:04 [INFO    ] test_search - ============================================================
+2026-03-22 17:06:04 [INFO    ] test_search - TEST START: Search for hotels in Bangalore and validate results
+2026-03-22 17:06:04 [INFO    ] test_search - Location  : Bangalore
+2026-03-22 17:06:04 [INFO    ] test_search - Keyword   : Bangalore
+2026-03-22 17:06:04 [INFO    ] test_search - ============================================================
+2026-03-22 17:06:04 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:06:04 [INFO    ] HomePage - Searching for: 'Bangalore'
+2026-03-22 17:06:45 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Bangalore__20260322_170645.png
+2026-03-22 17:06:45 [ERROR   ] conftest - FAILED: test_booking_flow[Bangalore] — screenshot captured
+2026-03-22 17:06:45 [INFO    ] conftest - Closing browser
+2026-03-22 17:06:51 [INFO    ] Screenshot - Screenshot saved: reports\screenshots\test_booking_flow_Mumbai__20260322_170651.png
+2026-03-22 17:06:51 [ERROR   ] conftest - FAILED: test_booking_flow[Mumbai] — screenshot captured
+2026-03-22 17:06:51 [INFO    ] conftest - Closing browser
+2026-03-22 17:06:55 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:06:59 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:06:59 [INFO    ] test_search - ============================================================
+2026-03-22 17:06:59 [INFO    ] test_search - TEST START: Search for hotels in Hyderabad and validate results
+2026-03-22 17:06:59 [INFO    ] test_search - Location  : Hyderabad
+2026-03-22 17:06:59 [INFO    ] test_search - Keyword   : Hyderabad
+2026-03-22 17:06:59 [INFO    ] test_search - ============================================================
+2026-03-22 17:06:59 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:06:59 [INFO    ] HomePage - Searching for: 'Hyderabad'
+2026-03-22 17:07:36 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:07:38 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:08:02 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:08:02 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:08:02 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:08:02 [INFO    ] test_search - PASS: 25 results found for 'Hyderabad'
+2026-03-22 17:08:02 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:08:02 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:08:03 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:08:05 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:08:05 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:08:05 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:08:34 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:08:34 [INFO    ] test_search - TEST PASSED: Search for hotels in Hyderabad and validate results
+2026-03-22 17:08:34 [INFO    ] test_search - ============================================================
+2026-03-22 17:08:34 [INFO    ] conftest - Closing browser
+2026-03-22 17:11:10 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 17:11:10 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 17:12:26 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 17:12:26 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 17:12:36 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:12:36 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:12:49 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:12:49 [INFO    ] test_search - ============================================================
+2026-03-22 17:12:49 [INFO    ] test_search - TEST START: Search for hotels in Delhi and validate results
+2026-03-22 17:12:49 [INFO    ] test_search - Location  : Delhi
+2026-03-22 17:12:49 [INFO    ] test_search - Keyword   : Delhi
+2026-03-22 17:12:49 [INFO    ] test_search - ============================================================
+2026-03-22 17:12:49 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:12:49 [INFO    ] HomePage - Searching for: 'Delhi'
+2026-03-22 17:12:50 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:12:50 [INFO    ] test_search - ============================================================
+2026-03-22 17:12:50 [INFO    ] test_search - TEST START: Search for hotels in Chennai and validate results
+2026-03-22 17:12:50 [INFO    ] test_search - Location  : Chennai
+2026-03-22 17:12:50 [INFO    ] test_search - Keyword   : Chennai
+2026-03-22 17:12:50 [INFO    ] test_search - ============================================================
+2026-03-22 17:12:50 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:12:50 [INFO    ] HomePage - Searching for: 'Chennai'
+2026-03-22 17:13:26 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:13:26 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:13:27 [INFO    ] HomePage - No autocomplete — pressed Enter
+2026-03-22 17:13:28 [INFO    ] HomePage - No autocomplete — pressed Enter
+2026-03-22 17:13:29 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:13:29 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:13:48 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:13:48 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:13:48 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:13:48 [INFO    ] test_search - PASS: 25 results found for 'Chennai'
+2026-03-22 17:13:48 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:13:48 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:13:48 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:13:50 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:13:50 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:13:50 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:13:53 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:13:53 [INFO    ] test_search - PASS: 25 results found for 'Delhi'
+2026-03-22 17:13:53 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:13:53 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:13:53 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:13:55 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:13:55 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:13:55 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:14:09 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:14:09 [INFO    ] test_search - TEST PASSED: Search for hotels in Chennai and validate results
+2026-03-22 17:14:09 [INFO    ] test_search - ============================================================
+2026-03-22 17:14:09 [INFO    ] conftest - Closing browser
+2026-03-22 17:14:16 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:14:21 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:14:21 [INFO    ] test_search - ============================================================
+2026-03-22 17:14:21 [INFO    ] test_search - TEST START: Search for hotels in Mumbai and validate results
+2026-03-22 17:14:21 [INFO    ] test_search - Location  : Mumbai
+2026-03-22 17:14:21 [INFO    ] test_search - Keyword   : Mumbai
+2026-03-22 17:14:21 [INFO    ] test_search - ============================================================
+2026-03-22 17:14:21 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:14:21 [INFO    ] HomePage - Searching for: 'Mumbai'
+2026-03-22 17:14:22 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:14:22 [INFO    ] test_search - TEST PASSED: Search for hotels in Delhi and validate results
+2026-03-22 17:14:22 [INFO    ] test_search - ============================================================
+2026-03-22 17:14:22 [INFO    ] conftest - Closing browser
+2026-03-22 17:14:28 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:14:31 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:14:31 [INFO    ] test_search - ============================================================
+2026-03-22 17:14:31 [INFO    ] test_search - TEST START: Search for hotels in Bangalore and validate results
+2026-03-22 17:14:31 [INFO    ] test_search - Location  : Bangalore
+2026-03-22 17:14:31 [INFO    ] test_search - Keyword   : Bangalore
+2026-03-22 17:14:31 [INFO    ] test_search - ============================================================
+2026-03-22 17:14:31 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:14:31 [INFO    ] HomePage - Searching for: 'Bangalore'
+2026-03-22 17:14:57 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:14:59 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:15:07 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:15:09 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:15:18 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:15:18 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:15:18 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:15:18 [INFO    ] test_search - PASS: 25 results found for 'Bangalore'
+2026-03-22 17:15:18 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:15:18 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:15:19 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:15:20 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:15:20 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:15:21 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:15:21 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:15:21 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:15:21 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:15:21 [INFO    ] test_search - PASS: 25 results found for 'Mumbai'
+2026-03-22 17:15:21 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:15:21 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:15:21 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:15:23 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:15:23 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:15:23 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:15:32 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:15:32 [INFO    ] test_search - TEST PASSED: Search for hotels in Bangalore and validate results
+2026-03-22 17:15:32 [INFO    ] test_search - ============================================================
+2026-03-22 17:15:32 [INFO    ] conftest - Closing browser
+2026-03-22 17:15:34 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:15:34 [INFO    ] test_search - TEST PASSED: Search for hotels in Mumbai and validate results
+2026-03-22 17:15:34 [INFO    ] test_search - ============================================================
+2026-03-22 17:15:34 [INFO    ] conftest - Closing browser
+2026-03-22 17:15:40 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:15:43 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:15:43 [INFO    ] test_search - ============================================================
+2026-03-22 17:15:43 [INFO    ] test_search - TEST START: Search for hotels in Hyderabad and validate results
+2026-03-22 17:15:43 [INFO    ] test_search - Location  : Hyderabad
+2026-03-22 17:15:43 [INFO    ] test_search - Keyword   : Hyderabad
+2026-03-22 17:15:43 [INFO    ] test_search - ============================================================
+2026-03-22 17:15:43 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:15:43 [INFO    ] HomePage - Searching for: 'Hyderabad'
+2026-03-22 17:16:19 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:16:21 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:16:30 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:16:30 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:16:31 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:16:31 [INFO    ] test_search - PASS: 25 results found for 'Hyderabad'
+2026-03-22 17:16:31 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:16:31 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:16:31 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:16:33 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:16:33 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:16:33 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:16:49 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:16:49 [INFO    ] test_search - TEST PASSED: Search for hotels in Hyderabad and validate results
+2026-03-22 17:16:49 [INFO    ] test_search - ============================================================
+2026-03-22 17:16:49 [INFO    ] conftest - Closing browser
+2026-03-22 17:47:38 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 17:47:38 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 17:47:42 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:47:42 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:47:43 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:47:43 [INFO    ] test_search - ============================================================
+2026-03-22 17:47:43 [INFO    ] test_search - TEST START: Search for hotels in Delhi and validate results
+2026-03-22 17:47:43 [INFO    ] test_search - Location  : Delhi
+2026-03-22 17:47:43 [INFO    ] test_search - Keyword   : Delhi
+2026-03-22 17:47:43 [INFO    ] test_search - ============================================================
+2026-03-22 17:47:43 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:47:43 [INFO    ] HomePage - Searching for: 'Delhi'
+2026-03-22 17:47:43 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:47:43 [INFO    ] test_search - ============================================================
+2026-03-22 17:47:43 [INFO    ] test_search - TEST START: Search for hotels in Chennai and validate results
+2026-03-22 17:47:43 [INFO    ] test_search - Location  : Chennai
+2026-03-22 17:47:44 [INFO    ] test_search - Keyword   : Chennai
+2026-03-22 17:47:44 [INFO    ] test_search - ============================================================
+2026-03-22 17:47:44 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:47:44 [INFO    ] HomePage - Searching for: 'Chennai'
+2026-03-22 17:47:48 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 17:47:53 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:47:55 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:48:00 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:48:00 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:48:00 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:48:00 [INFO    ] test_search - PASS: 25 results found for 'Delhi'
+2026-03-22 17:48:00 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:48:00 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:48:01 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:48:03 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:48:03 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:48:03 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:48:06 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:48:06 [INFO    ] test_search - TEST PASSED: Search for hotels in Delhi and validate results
+2026-03-22 17:48:06 [INFO    ] test_search - ============================================================
+2026-03-22 17:48:06 [INFO    ] conftest - Closing browser
+2026-03-22 17:48:11 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 17:48:12 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:48:13 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:48:13 [INFO    ] test_search - ============================================================
+2026-03-22 17:48:13 [INFO    ] test_search - TEST START: Search for hotels in Bangalore and validate results
+2026-03-22 17:48:13 [INFO    ] test_search - Location  : Bangalore
+2026-03-22 17:48:13 [INFO    ] test_search - Keyword   : Bangalore
+2026-03-22 17:48:13 [INFO    ] test_search - ============================================================
+2026-03-22 17:48:13 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:48:13 [INFO    ] HomePage - Searching for: 'Bangalore'
+2026-03-22 17:48:17 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:48:18 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:48:28 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:48:28 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:48:28 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:48:28 [INFO    ] test_search - PASS: 25 results found for 'Chennai'
+2026-03-22 17:48:28 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:48:28 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:48:29 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:48:31 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:48:31 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:48:31 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:48:40 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 17:48:41 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:48:41 [INFO    ] test_search - TEST PASSED: Search for hotels in Chennai and validate results
+2026-03-22 17:48:41 [INFO    ] test_search - ============================================================
+2026-03-22 17:48:41 [INFO    ] conftest - Closing browser
+2026-03-22 17:48:45 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:48:46 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:48:46 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:48:49 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:48:49 [INFO    ] test_search - ============================================================
+2026-03-22 17:48:49 [INFO    ] test_search - TEST START: Search for hotels in Mumbai and validate results
+2026-03-22 17:48:49 [INFO    ] test_search - Location  : Mumbai
+2026-03-22 17:48:49 [INFO    ] test_search - Keyword   : Mumbai
+2026-03-22 17:48:49 [INFO    ] test_search - ============================================================
+2026-03-22 17:48:49 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:48:49 [INFO    ] HomePage - Searching for: 'Mumbai'
+2026-03-22 17:48:52 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:48:52 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:48:52 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:48:52 [INFO    ] test_search - PASS: 25 results found for 'Bangalore'
+2026-03-22 17:48:52 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:48:52 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:48:52 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:48:55 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:48:55 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:48:55 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:48:59 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:48:59 [INFO    ] test_search - TEST PASSED: Search for hotels in Bangalore and validate results
+2026-03-22 17:48:59 [INFO    ] test_search - ============================================================
+2026-03-22 17:48:59 [INFO    ] conftest - Closing browser
+2026-03-22 17:49:04 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:49:05 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:49:05 [INFO    ] test_search - ============================================================
+2026-03-22 17:49:05 [INFO    ] test_search - TEST START: Search for hotels in Hyderabad and validate results
+2026-03-22 17:49:05 [INFO    ] test_search - Location  : Hyderabad
+2026-03-22 17:49:05 [INFO    ] test_search - Keyword   : Hyderabad
+2026-03-22 17:49:05 [INFO    ] test_search - ============================================================
+2026-03-22 17:49:05 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:49:05 [INFO    ] HomePage - Searching for: 'Hyderabad'
+2026-03-22 17:49:19 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 17:49:25 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:49:26 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:49:32 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:49:32 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:49:32 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:49:32 [INFO    ] test_search - PASS: 25 results found for 'Mumbai'
+2026-03-22 17:49:32 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:49:32 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:49:33 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 17:49:33 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:49:35 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:49:35 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:49:35 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:49:38 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:49:38 [INFO    ] test_search - TEST PASSED: Search for hotels in Mumbai and validate results
+2026-03-22 17:49:38 [INFO    ] test_search - ============================================================
+2026-03-22 17:49:38 [INFO    ] conftest - Closing browser
+2026-03-22 17:49:38 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:49:40 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:49:44 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:49:44 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:49:44 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:49:44 [INFO    ] test_search - PASS: 25 results found for 'Hyderabad'
+2026-03-22 17:49:44 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:49:44 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:49:45 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:49:47 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:49:47 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:49:47 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:49:48 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:49:48 [INFO    ] test_search - TEST PASSED: Search for hotels in Hyderabad and validate results
+2026-03-22 17:49:48 [INFO    ] test_search - ============================================================
+2026-03-22 17:49:48 [INFO    ] conftest - Closing browser
+2026-03-22 17:57:00 [INFO    ] conftest - Config loaded — browser: chrome | base_url: https://www.booking.com/ | timeout: 15s
+2026-03-22 17:57:03 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:57:04 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:57:04 [INFO    ] test_search - ============================================================
+2026-03-22 17:57:04 [INFO    ] test_search - TEST START: Search for hotels in Chennai and validate results
+2026-03-22 17:57:04 [INFO    ] test_search - Location  : Chennai
+2026-03-22 17:57:04 [INFO    ] test_search - Keyword   : Chennai
+2026-03-22 17:57:04 [INFO    ] test_search - ============================================================
+2026-03-22 17:57:04 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:57:04 [INFO    ] HomePage - Searching for: 'Chennai'
+2026-03-22 17:57:30 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 17:57:35 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:57:37 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:57:41 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:57:41 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:57:41 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:57:41 [INFO    ] test_search - PASS: 25 results found for 'Chennai'
+2026-03-22 17:57:41 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:57:41 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:57:41 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:57:43 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:57:43 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:57:43 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:57:45 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:57:45 [INFO    ] test_search - TEST PASSED: Search for hotels in Chennai and validate results
+2026-03-22 17:57:45 [INFO    ] test_search - ============================================================
+2026-03-22 17:57:45 [INFO    ] conftest - Closing browser
+2026-03-22 17:57:51 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:57:51 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:57:51 [INFO    ] test_search - ============================================================
+2026-03-22 17:57:51 [INFO    ] test_search - TEST START: Search for hotels in Mumbai and validate results
+2026-03-22 17:57:51 [INFO    ] test_search - Location  : Mumbai
+2026-03-22 17:57:51 [INFO    ] test_search - Keyword   : Mumbai
+2026-03-22 17:57:51 [INFO    ] test_search - ============================================================
+2026-03-22 17:57:51 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:57:51 [INFO    ] HomePage - Searching for: 'Mumbai'
+2026-03-22 17:58:16 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 17:58:21 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:58:22 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:58:26 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:58:26 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:58:26 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:58:26 [INFO    ] test_search - PASS: 25 results found for 'Mumbai'
+2026-03-22 17:58:26 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:58:26 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:58:27 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:58:29 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:58:29 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:58:29 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:58:32 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:58:32 [INFO    ] test_search - TEST PASSED: Search for hotels in Mumbai and validate results
+2026-03-22 17:58:32 [INFO    ] test_search - ============================================================
+2026-03-22 17:58:32 [INFO    ] conftest - Closing browser
+2026-03-22 17:58:37 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:58:38 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:58:38 [INFO    ] test_search - ============================================================
+2026-03-22 17:58:38 [INFO    ] test_search - TEST START: Search for hotels in Delhi and validate results
+2026-03-22 17:58:38 [INFO    ] test_search - Location  : Delhi
+2026-03-22 17:58:38 [INFO    ] test_search - Keyword   : Delhi
+2026-03-22 17:58:38 [INFO    ] test_search - ============================================================
+2026-03-22 17:58:38 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:58:38 [INFO    ] HomePage - Searching for: 'Delhi'
+2026-03-22 17:59:02 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 17:59:07 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:59:09 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:59:13 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:59:13 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:59:13 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:59:13 [INFO    ] test_search - PASS: 25 results found for 'Delhi'
+2026-03-22 17:59:13 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:59:13 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 17:59:13 [INFO    ] ResultsPage - First result clicked
+2026-03-22 17:59:15 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 17:59:15 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 17:59:15 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 17:59:17 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 17:59:17 [INFO    ] test_search - TEST PASSED: Search for hotels in Delhi and validate results
+2026-03-22 17:59:17 [INFO    ] test_search - ============================================================
+2026-03-22 17:59:17 [INFO    ] conftest - Closing browser
+2026-03-22 17:59:22 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 17:59:24 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 17:59:24 [INFO    ] test_search - ============================================================
+2026-03-22 17:59:24 [INFO    ] test_search - TEST START: Search for hotels in Bangalore and validate results
+2026-03-22 17:59:24 [INFO    ] test_search - Location  : Bangalore
+2026-03-22 17:59:24 [INFO    ] test_search - Keyword   : Bangalore
+2026-03-22 17:59:24 [INFO    ] test_search - ============================================================
+2026-03-22 17:59:24 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 17:59:24 [INFO    ] HomePage - Searching for: 'Bangalore'
+2026-03-22 17:59:48 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 17:59:54 [INFO    ] HomePage - Location typed into search box
+2026-03-22 17:59:55 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 17:59:59 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 17:59:59 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 17:59:59 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 17:59:59 [INFO    ] test_search - PASS: 25 results found for 'Bangalore'
+2026-03-22 17:59:59 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 17:59:59 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 18:00:00 [INFO    ] ResultsPage - First result clicked
+2026-03-22 18:00:02 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 18:00:02 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 18:00:02 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 18:00:04 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 18:00:04 [INFO    ] test_search - TEST PASSED: Search for hotels in Bangalore and validate results
+2026-03-22 18:00:04 [INFO    ] test_search - ============================================================
+2026-03-22 18:00:04 [INFO    ] conftest - Closing browser
+2026-03-22 18:00:09 [INFO    ] DriverFactory - Chrome WebDriver initialized
+2026-03-22 18:00:10 [INFO    ] conftest - Browser opened: https://www.booking.com/
+2026-03-22 18:00:10 [INFO    ] test_search - ============================================================
+2026-03-22 18:00:10 [INFO    ] test_search - TEST START: Search for hotels in Hyderabad and validate results
+2026-03-22 18:00:10 [INFO    ] test_search - Location  : Hyderabad
+2026-03-22 18:00:10 [INFO    ] test_search - Keyword   : Hyderabad
+2026-03-22 18:00:10 [INFO    ] test_search - ============================================================
+2026-03-22 18:00:10 [INFO    ] test_search - Step 1: Entering search location
+2026-03-22 18:00:10 [INFO    ] HomePage - Searching for: 'Hyderabad'
+2026-03-22 18:00:34 [INFO    ] HomePage - Dismissed: sign-in banner
+2026-03-22 18:00:39 [INFO    ] HomePage - Location typed into search box
+2026-03-22 18:00:41 [INFO    ] HomePage - Autocomplete first result clicked via JS
+2026-03-22 18:00:45 [INFO    ] HomePage - Search button clicked via JS
+2026-03-22 18:00:45 [INFO    ] test_search - Step 2: Validating search results
+2026-03-22 18:00:45 [INFO    ] ResultsPage - Property cards found: 25
+2026-03-22 18:00:45 [INFO    ] test_search - PASS: 25 results found for 'Hyderabad'
+2026-03-22 18:00:45 [INFO    ] test_search - Step 3: Opening first hotel result
+2026-03-22 18:00:45 [INFO    ] ResultsPage - Opening first search result
+2026-03-22 18:00:46 [INFO    ] ResultsPage - First result clicked
+2026-03-22 18:00:48 [INFO    ] ResultsPage - Switched to new tab
+2026-03-22 18:00:48 [INFO    ] test_search - Step 4: Clicking Reserve button
+2026-03-22 18:00:48 [INFO    ] HotelPage - Waiting for Reserve button
+2026-03-22 18:00:50 [INFO    ] HotelPage - Reserve button clicked successfully
+2026-03-22 18:00:50 [INFO    ] test_search - TEST PASSED: Search for hotels in Hyderabad and validate results
+2026-03-22 18:00:50 [INFO    ] test_search - ============================================================
+2026-03-22 18:00:50 [INFO    ] conftest - Closing browser

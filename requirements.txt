@@ -1,0 +1,7 @@
+selenium
+pytest
+webdriver-manager
+pyyaml
+pytest-html
+pytest-xdist
+python-dotenv
